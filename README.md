@@ -36,28 +36,6 @@ $ npm start
 $ npm run generate
 ```
 
-## Building and running into containerized version
-
-``` bash
-# Build image
-$ docker build -t nuxtjs-dashboard .
-
-# Run image in detached mode
-$ docker run -p 3000:3000 -d nuxtjs-dashboard
-
-# Get container ID
-$ docker ps
-
-# Print application output (continuously)
-$ docker logs <container id> -f
-
-# Enter the container
-$ docker exec -it <container id> /bin/bash
-
-# Quit the container
-$ docker stop <container id>
-```
-
 
 ## NuxtJs
 NuxtJs is a vue meta Framework to create complex, fast & universal web applications quickly.
