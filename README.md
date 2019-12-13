@@ -1,8 +1,17 @@
 # nuxtjs-dashboard
 
-> NuxtJs Dashboard is based on Vuetify Material Theme purposed by Creative Tim
+> NuxtJs Dashboard is based on Vuetify Material Theme purposed by [Creative Tim](https://www.creative-tim.com/) & [Geminii/nuxtjs-dashboard](https://github.com/Geminii/nuxtjs-dashboard)
 
-![Product Gif](./static/vuetify-material-dashboard.gif)
+# Spec
+Installed
+- nuxt/typescript
+- eslint
+- prettier
+- nuxt-property-decorator
+- vuex-module-decorators
+
+
+![Product Gif](./client/static/vuetify-material-dashboard.gif)
 
 ## Demo / Presentation
 [Live Demo !](https://nuxtjs-dashboard.herokuapp.com/)
