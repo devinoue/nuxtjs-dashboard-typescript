@@ -1,4 +1,4 @@
-# nuxtjs-dashboard
+# nuxtjs-dashboard-typescript
 
 > NuxtJs Dashboard is based on Vuetify Material Theme purposed by [Creative Tim](https://www.creative-tim.com/) & [Geminii/nuxtjs-dashboard](https://github.com/Geminii/nuxtjs-dashboard)
 
