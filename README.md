@@ -1,11 +1,20 @@
 # nuxtjs-dashboard
 
-> NuxtJs Dashboard is based on Vuetify Material Theme purposed by Creative Tim
+> NuxtJs Dashboard is based on Vuetify Material Theme purposed by [Creative Tim](https://www.creative-tim.com/) & [Geminii/nuxtjs-dashboard](https://github.com/Geminii/nuxtjs-dashboard)
 
-![Product Gif](./static/vuetify-material-dashboard.gif)
+# Spec
+Installed
+- Nuxt/TypeScript
+- ESLint
+- Prettier
+- nuxt-property-decorator
+- vuex-module-decorators
+
+
+![Product Gif](./client/static/vuetify-material-dashboard.gif)
 
 ## Demo / Presentation
-[Live Demo !](https://nuxtjs-dashboard.herokuapp.com/)
+[Demo](https://jolly-newton-800592.netlify.com/)
 
 NuxtJs Dashboard Vuetify Material is a beautiful resource built over [NuxtJs](https://nuxtjs.org/) coupled with [Vuetify](https://vuetifyjs.com/en/). It will help you get started developing dashboards in no time. 
 This dashboard is the official Vuetify version of the Original [Material Dashboard](https://www.creative-tim.com/product/material-dashboard). Using the Dashboard is pretty simple but requires basic knowledge of [NuxtJs](https://nuxtjs.org/) and [Vuetify](https://vuetifyjs.com/en/).
@@ -25,28 +34,6 @@ $ npm start
 
 # generate static project
 $ npm run generate
-```
-
-## Building and running into containerized version
-
-``` bash
-# Build image
-$ docker build -t nuxtjs-dashboard .
-
-# Run image in detached mode
-$ docker run -p 3000:3000 -d nuxtjs-dashboard
-
-# Get container ID
-$ docker ps
-
-# Print application output (continuously)
-$ docker logs <container id> -f
-
-# Enter the container
-$ docker exec -it <container id> /bin/bash
-
-# Quit the container
-$ docker stop <container id>
 ```
 
 
